@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/agrim_bg_linen">
+
+    <!-- 
+        Ubah android:visibility="visible" pada screen yang ingin ditampilkan/dipreview di Android Studio:
+        - screen_beranda (Home / Beranda Direktori Agrim)
+        - screen_login_agrim_ops (Login Agrim Ops & Buyer)
+        - screen_jelajah_pemasok (Jelajah Direktori Pemasok)
+        - screen_detail_pemasok (Detail Profil Pemasok)
+        - screen_bandingkan_buyer (Bandingkan Pemasok Buyer)
+        - screen_akun (Akun & Keanggotaan B2B)
+        - screen_admin_kelola_pemasok (Admin Kelola Pemasok)
+        - screen_admin_matriks_bandingkan (Admin Matriks Bandingkan)
+        - sheet_filter_urutkan (Bottom Sheet Filter & Urutkan)
+        - sheet_ekspor_pdf (Bottom Sheet Ekspor PDF)
+    -->
+
+    <!-- 1. Beranda / Home -->
+    <include
+        android:id="@+id/berandaScreen"
+        layout="@layout/screen_beranda"
+        android:visibility="gone" />
+
+    <!-- 2. Jelajah Direktori Pemasok -->
+    <include
+        android:id="@+id/jelajahScreen"
+        layout="@layout/screen_jelajah_pemasok"
+        android:visibility="gone" />
+
+    <!-- 3. Detail Pemasok -->
+    <include
+        android:id="@+id/detailScreen"
+        layout="@layout/screen_detail_pemasok"
+        android:visibility="gone" />
+
+    <!-- 4. Bandingkan Pemasok Buyer -->
+    <include
+        android:id="@+id/bandingkanScreen"
+        layout="@layout/screen_bandingkan_buyer"
+        android:visibility="gone" />
+
+    <!-- 5. Akun & Keanggotaan -->
+    <include
+        android:id="@+id/akunScreen"
+        layout="@layout/screen_akun"
+        android:visibility="gone" />
+
+    <!-- 6. Login Agrim Ops / Buyer -->
+    <include
+        android:id="@+id/loginScreen"
+        layout="@layout/screen_login_agrim_ops"
+        android:visibility="visible" />
+
+    <!-- 7. Admin Kelola Pemasok -->
+    <include
+        android:id="@+id/adminKelolaScreen"
+        layout="@layout/screen_admin_kelola_pemasok"
+        android:visibility="gone" />
+
+    <!-- 8. Admin Matriks Bandingkan -->
+    <include
+        android:id="@+id/adminMatriksScreen"
+        layout="@layout/screen_admin_matriks_bandingkan"
+        android:visibility="gone" />
+
+</FrameLayout>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Agrim Palette (from mobile namabiz) -->
+    <color name="agrim_dark_green">#0D2821</color>
+    <color name="agrim_emerald">#266A58</color>
+    <color name="agrim_deep_green">#004229</color>
+    <color name="agrim_mint_accent">#AFF1CA</color>
+    <color name="agrim_mint_bg">#E8F0EB</color>
+    <color name="agrim_mint_light">#E4FFF4</color>
+    
+    <!-- Warm Cream Backgrounds -->
+    <color name="agrim_bg_cream">#FBF9F4</color>
+    <color name="agrim_bg_linen">#F7F3EB</color>
+    <color name="agrim_strip_gray">#F5F4EE</color>
+    <color name="agrim_panel_gray">#E9E8E3</color>
+    
+    <!-- Semantic & Bottom Sheet Aliases -->
+    <color name="agrim_background">#F7F3EB</color>
+    <color name="agrim_sand_surface">#FFFDF8</color>
+    <color name="agrim_card_bg">#FFFDF8</color>
+    <color name="agrim_cream_border">#E4DDCF</color>
+    <color name="agrim_dark_text">#1C1A16</color>
+    <color name="agrim_slate_body">#6F685C</color>
+    <color name="agrim_amber_text">#8A5A00</color>
+    
+    <!-- Text Colors -->
+    <color name="agrim_text_dark">#0D2821</color>
+    <color name="agrim_text_black">#1B1C19</color>
+    <color name="agrim_text_body">#424845</color>
+    <color name="agrim_text_muted">#57615D</color>
+    <color name="agrim_text_secondary">#727975</color>
+    
+    <!-- Borders and Accents -->
+    <color name="agrim_border">#C1C8C4</color>
+    <color name="agrim_border_light">#E4DDCF</color>
+    <color name="agrim_border_subtle">#33C1C8C4</color>
+    
+    <!-- Badges and Statuses -->
+    <color name="agrim_gold">#7C5808</color>
+    <color name="agrim_badge_amber_bg">#FFCD76</color>
+    <color name="agrim_badge_amber_text">#795505</color>
+    <color name="agrim_badge_green_bg">#AFF1CA</color>
+    <color name="agrim_badge_green_text">#002112</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Backward Compatibility -->
+    <color name="app_bg">#FBF9F4</color>
+    <color name="header_green">#266A58</color>
+    <color name="header_text">#E4FFF4</color>
+    <color name="accent_green">#004229</color>
+    <color name="text_muted">#727975</color>
+</resources>

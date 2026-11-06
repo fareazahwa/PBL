@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Mobile_s3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/agrim_emerald</item>
+        <item name="colorPrimaryDark">@color/agrim_dark_green</item>
+        <item name="colorAccent">@color/agrim_mint_accent</item>
+        <item name="android:windowBackground">@color/agrim_bg_linen</item>
+    </style>
+</resources>
